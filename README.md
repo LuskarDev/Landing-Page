@@ -1,2 +1,2 @@
 # <h1>Landing-Page</h1>
-<p>Clique aqui e veja o projeto <a href="https://luskardev.github.io/Landing-Page/"></a></p>
+<p>Clique <a href="https://luskardev.github.io/Landing-Page/"> aqui</a> e veja o projeto </p>
