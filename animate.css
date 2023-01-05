@@ -1,0 +1,150 @@
+@keyframes showCel {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes ShowLeft {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ShowRight {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ShowBar {
+    from {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes ShowRotate {
+    from {
+        transform: translateX(200px);
+        rotate: 125deg;
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes ShowNav {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes MoveRect {
+    from {
+        transform: rotateY(135deg) rotateX(55deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes MoveRect2 {
+    from {
+        transform: rotateY(135deg) rotateX(125deg);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes MoveRect3 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes MoveRect4 {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes MoveScroll {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    } 
+}
+
+@keyframes Upper {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+        transform: scale(0);
+    }
+    50% {
+        opacity: 0.3;
+        transform: translateY(20px);
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+        transform: scale(1);
+    }
+}
