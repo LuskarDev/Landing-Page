@@ -215,7 +215,7 @@ header nav ul li:last-child button:hover{
 #home .bg-bottom {
     position: absolute;
     background-color: var(--bg-bottom);
-    height: 195px;
+    height: 295px;
     width: 100%;
     z-index: -2;
     bottom: 0;
